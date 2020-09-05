@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  padding: 1em;
+  font-family: "Montserrat", sans-serif;
+}
+body:hover {
+  border: 0.02px solid grey;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.5em;
+  row-gap: 1.9em;
+  margin-top: 50px;
+}
+.grid img {
+  width: 100%;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: large;
+}
+footer {
+  margin-top: 3%;
+  color: gray;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+}
+#logo {
+  max-width: 20vh;
+  height: 20vh;
+}
+
+img {
+  max-width: 100%;
+}
